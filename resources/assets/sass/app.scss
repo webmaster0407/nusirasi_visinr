@@ -1,0 +1,27 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+h1 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.phone-content {
+  padding-bottom: 20px;
+}
+
+.app-version {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 11px;
+  line-height: 16px;
+  color: gray;
+}
